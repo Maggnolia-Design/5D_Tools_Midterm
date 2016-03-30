@@ -1,0 +1,286 @@
+@import url(https://fonts.googleapis.com/css?family=Cabin:700,500);
+
+/* BODY */
+html {
+   margin:0;
+   padding:0;
+}
+
+#project-process, #proj-overview, #masterhead, .welcome_box{
+   margin-left: 4.8rem;
+   margin-right: 4.8rem;
+}
+
+/* NAV */
+
+#masterhead {
+   border-bottom: 2px solid;
+   padding-bottom: 4rem;
+   margin-bottom: 1rem;
+}
+
+#home-button{
+   float:left;
+   padding-left: 4.8rem;
+}
+
+#home-button a{
+   text-decoration: none;
+   color: black;
+   background-color: white;
+   font-weight: bold;
+}
+
+#nav {
+   padding-right: 4.8rem;
+   float:right;
+}
+
+.nav-link{
+   display:inline-block;
+   margin-right: 1.2rem;
+}
+
+.nav-link a{
+   text-decoration: none;
+   color: black;
+   background-color: white;
+   font-weight: bold;
+}
+
+.nav-link a:hover{
+   background-color: grey;
+}
+
+#subnav {
+   position: absolute;
+   padding-left: 0rem;
+   padding-top: .4rem;
+   display:none;
+   list-style: none;
+}
+
+.nav-link:hover #subnav{
+   display:block;
+}
+
+/* HOMEPAGE*/
+.welcome_box {
+   -moz-box-shadow: -9px 10px 6px 2px #ccc;
+   -webkit-box-shadow: -9px 10px 6px 2px #ccc;
+   box-shadow: -9px 10px 6px 2px #ccc;
+   opacity: 0.5;
+   transition-property: opacity;
+}
+
+.welcome_box h1 {
+/*EDIT THIS A LITTLE!!!!!*/
+  background-color: #00e7cf;
+  padding:4rem 4rem 16rem 4rem;
+  color: #ebfef0;
+  font: italic bold 100px Georgia, Serif;
+  text-shadow: -4px 3px 0 #00e7cf,
+               -14px 7px 0 #092325;
+}
+
+.welcome_box:hover {
+   opacity: 1;
+   transform: skew(5deg, 5deg);
+   transition-duration: 0.5s;
+   transition-timing-function: ease-in;
+}
+
+#line {
+   z-index:2;
+   position: absolute;
+   top:-28rem;
+   right: 310px;
+}
+
+#line img{
+   height: auto;
+   width: 50px;
+   bottom:0px;
+}
+
+#line:hover{
+   transform: translateY(30.7rem);
+   transition-duration: 1s;
+}
+
+/*
+#line img:first-of-type:hover {
+   transform: scale(1,2.6);
+   transform-origin: 0px 0px;
+}
+
+#line img:nth-child(2){
+   position:absolute;
+   height:80px;
+   left:-14px;
+   bottom:-76px;
+}
+
+#line img:nth-child(2):hover {
+   transform: translateY(100px);
+}
+
+*/
+
+/* OVERVIEW */
+
+#proj-overview {
+   padding-bottom: 3rem;
+}
+
+#proj-overview div{
+   position:absolute;
+   right: 4.8rem;
+   bottom: 2rem;
+   width: 26rem;
+   padding: 1rem;
+   z-index: 2;
+   background-color:rgba(255,255,255, .75);
+}
+
+#proj-overview img{
+   width:100%;
+}
+
+/* PROCESS */
+
+#project-process {
+   clear: both;
+   padding-bottom: 16rem;
+}
+
+#project-process-sub {
+   padding-left: 4.8rem;
+}
+
+#project-process-sub div {
+   float: left;
+   margin-right:1.8rem;
+   width: 23rem;
+}
+
+
+/* FOOTER */
+
+#footer {
+   clear:both;
+   right:0;
+   bottom:0;
+   left:0;
+   background-color: #efefef;
+   padding:0.5rem;
+   padding-left: 4.8rem;
+}
+
+/* TEXT */
+
+#home-button, ul, h1, h2, h3 {
+   font-family: 'Cabin', sans-serif;
+}
+
+#banner{
+   width:100;
+}
+
+p{
+   font-family: Garamond, serif;
+   line-height: 1.5em;
+}
+
+/* PROJECT TWO */
+
+#margin, #grey-box{
+   margin-top: 5rem;
+   margin-left: auto;
+   margin-right: auto;
+   width: 65rem;
+}
+
+#grey-box{
+   background-color: #efefef;
+   padding-right:2rem;
+   padding-left:4rem;
+   padding-top: 2rem;
+   height: 99rem;
+}
+
+#grey-box-headers{
+   float:left;
+   width:20rem;
+}
+
+#grey-box p{
+   float:left;
+   width:30rem;
+   padding-left: 8rem;
+}
+
+#grey-box ul{
+   float:left;
+   width:30rem;
+   padding-left: 8rem;
+}
+
+.project-series{
+   clear:both;
+   padding-top: 3rem;
+}
+
+.project-series-text {
+   float:left;
+}
+
+.project-series-text ul{
+   list-style: none;
+   font-weight: bold;
+}
+
+/* PROJ 2 IMAGES */
+
+.project-series-img1 {
+   background-image: url(img/SASE_poster.jpg);
+   background-repeat: no-repeat;
+   background-size: contain;
+   width:20rem;
+   height:20rem;
+   float:left;
+}
+
+.project-series-img2 {
+   background-image: url(img/SASE_bag.jpg);
+   background-repeat: no-repeat;
+   background-size: contain;
+   width:20rem;
+   height:20rem;
+   float:left;
+}
+
+.project-series-img3 {
+   background-image: url(img/SASE_badge.jpg);
+   background-repeat: no-repeat;
+   background-size: contain;
+   width:20rem;
+   height:20rem;
+   float:left;
+}
+
+.project-series-img4 {
+   background-image: url(img/SASE_program.jpg);
+   background-repeat: no-repeat;
+   background-size: contain;
+   width:20rem;
+   height:20rem;
+   float:left;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 600px) {
+
+
+}
